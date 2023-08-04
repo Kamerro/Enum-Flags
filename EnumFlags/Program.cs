@@ -4,7 +4,7 @@ if (e.HasFlag(Flags.Super_User))
 {
     if (e.HasFlag(Flags.Admin))
     {
-        Console.WriteLine("Admin");
+        Console.WriteLine("Admin and superuser");
     }
 }
 
